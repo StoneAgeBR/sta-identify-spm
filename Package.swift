@@ -23,12 +23,12 @@ let package = Package(
     ),
     .binaryTarget(
       name: "IDLiveFaceCamera",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.25.0/Libraries/iad-1_7_3/Frameworks/IDLiveFaceCamera.xcframework.zip",
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.25.0/Libraries/iad-2_4_1/Frameworks/IDLiveFaceCamera.xcframework.zip",
       checksum: "9711ed54da3a0c2b4b1ad7119beafd418314ae707d64d8584ee0679685246687"
     ),
     .binaryTarget(
       name: "IDLiveFaceIAD",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.25.0/Libraries/iad-1_7_3/Frameworks/IDLiveFaceIAD.xcframework.zip",
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.25.0/Libraries/iad-2_4_1/Frameworks/IDLiveFaceIAD.xcframework.zip",
       checksum: "b2b9c9ce5e795cf42c933b5012f954d1c1b078cdefedbb3dd2c957d62b5ac877"
     ),
     .target(
