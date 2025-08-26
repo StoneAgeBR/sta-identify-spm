@@ -12,24 +12,23 @@ let package = Package(
       targets: ["STAIdentifySPM"])
   ],
   dependencies: [
-    .package(url: "https://github.com/StoneAgeBR/google-mlkit-swiftpm", from: "5.0.0"),
-    .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "10.0.0")
+    .package(url: "https://github.com/StoneAgeBR/google-mlkit-swiftpm", from: "5.0.0")
   ],
   targets: [
     .binaryTarget(
       name: "STAIdentify",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.25.0/STAIdentify.xcframework.zip",
-      checksum: "7a03b8f3a81172e2c8db49af67a1d3279e0ed2753e47990b51f5cbf9604b29ef"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.26.0-rc.1/STAIdentify.xcframework.zip",
+      checksum: "777077cd1b09bd10e92515b65104782ea94076aa58deea23088860e0331a4cce"
     ),
     .binaryTarget(
       name: "IDLiveFaceCamera",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.25.0/Libraries/iad-1_7_3/Frameworks/IDLiveFaceCamera.xcframework.zip",
-      checksum: "9711ed54da3a0c2b4b1ad7119beafd418314ae707d64d8584ee0679685246687"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.26.0-rc.1/Libraries/iad-2_4_1/Frameworks/IDLiveFaceCamera.xcframework.zip",
+      checksum: "c76632f4301dab8ecb09221979254286e3596feb18460e3e68e769c4574d2667"
     ),
     .binaryTarget(
       name: "IDLiveFaceIAD",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.25.0/Libraries/iad-1_7_3/Frameworks/IDLiveFaceIAD.xcframework.zip",
-      checksum: "b2b9c9ce5e795cf42c933b5012f954d1c1b078cdefedbb3dd2c957d62b5ac877"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.26.0-rc.1/Libraries/iad-2_4_1/Frameworks/IDLiveFaceIAD.xcframework.zip",
+      checksum: "5c896dbdf6fc1ae6aad3e623c315cdb6053703a8cc5196bfc6fbd8535af088ec"
     ),
     .target(
       name: "STAIdentifySPM",
@@ -38,8 +37,7 @@ let package = Package(
         "IDLiveFaceCamera",
         "IDLiveFaceIAD",
         .product(name: "MLKitFaceDetection", package: "google-mlkit-swiftpm"),
-        .product(name: "MLKitObjectDetection", package: "google-mlkit-swiftpm"),
-        .product(name: "FirebaseCrashlytics", package: "firebase-ios-sdk"),
+        .product(name: "MLKitObjectDetection", package: "google-mlkit-swiftpm")
       ]
     ),
   ]
