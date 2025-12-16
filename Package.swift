@@ -5,39 +5,34 @@ import PackageDescription
 let package = Package(
   name: "STAIdentifySPM",
   defaultLocalization: "pt-BR",
-  platforms: [.iOS(.v13)],
+  platforms: [.iOS(.v15)],
   products: [
     .library(
       name: "STAIdentifySPM",
       targets: ["STAIdentifySPM"])
   ],
-  dependencies: [
-    .package(url: "https://github.com/StoneAgeBR/google-mlkit-swiftpm", from: "5.0.0")
-  ],
   targets: [
     .binaryTarget(
       name: "STAIdentify",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.26.0/STAIdentify.xcframework.zip",
-      checksum: "f79ea42f238419d702314868546892a6e55e84683f7de7e544554e0de2254123"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.27.0/STAIdentify.xcframework.zip",
+      checksum: "1573fe5282a34f0c93968686034b358128905d392c2e3a61bf4f0299def259dc"
     ),
     .binaryTarget(
       name: "IDLiveFaceCamera",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.26.0/Libraries/iad-2_4_1/Frameworks/IDLiveFaceCamera.xcframework.zip",
-      checksum: "663f8e6d41f30938ac164a8f0daa86d9eab44e509540acb68ad650d656ebbf2c"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.27.0/Libraries/iad-2_4_1/Frameworks/IDLiveFaceCamera.xcframework.zip",
+      checksum: "0f890f12ad2ddd3180fed5d862ac20d3dc58d3047394eb0100865e1e165e42a3"
     ),
     .binaryTarget(
       name: "IDLiveFaceIAD",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.26.0/Libraries/iad-2_4_1/Frameworks/IDLiveFaceIAD.xcframework.zip",
-      checksum: "2e3ef9a8df192f4452d284b7b0a4e3ab3ef7e424248dc3562b072c7ffe248bad"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.27.0/Libraries/iad-2_4_1/Frameworks/IDLiveFaceIAD.xcframework.zip",
+      checksum: "fec4302c8fce511577eda604a52b48ab680383c68590856e9627823144f91734"
     ),
     .target(
       name: "STAIdentifySPM",
       dependencies: [
         "STAIdentify",
         "IDLiveFaceCamera",
-        "IDLiveFaceIAD",
-        .product(name: "MLKitFaceDetection", package: "google-mlkit-swiftpm"),
-        .product(name: "MLKitObjectDetection", package: "google-mlkit-swiftpm")
+        "IDLiveFaceIAD"
       ]
     ),
   ]
