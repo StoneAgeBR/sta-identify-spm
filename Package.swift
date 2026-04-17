@@ -14,18 +14,18 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "STAIdentify",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.30.0/STAIdentify.xcframework.zip",
-      checksum: "5761873a233edc6980444155d2f7387a163d5d65d9cbaa1df01e801353369e15"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.31.0/STAIdentify.xcframework.zip",
+      checksum: "224c91b054482e7d9d78d5a4b646cbea453d060e973c0d38e0dd702fd56c3179"
     ),
     .binaryTarget(
       name: "IDLiveFaceCamera",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.30.0/Libraries/iad-2_5_0/Frameworks/IDLiveFaceCamera.xcframework.zip",
-      checksum: "4d82f55abde80ea10fc4b3d24c44c65aa3315d9a901ef5011b527cb206ad1720"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.31.0/Libraries/iad-2_5_0/Frameworks/IDLiveFaceCamera.xcframework.zip",
+      checksum: "a598514906d071125ba382e127ce21195323e1ecd925626e9e61cd5e51b07d37"
     ),
     .binaryTarget(
       name: "IDLiveFaceIAD",
-      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.30.0/Libraries/iad-2_5_0/Frameworks/IDLiveFaceIAD.xcframework.zip",
-      checksum: "384d6ed7f074703cfe6778d2e309924c6491ca61c3174f965a14fd55da131e98"
+      url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.31.0/Libraries/iad-2_5_0/Frameworks/IDLiveFaceIAD.xcframework.zip",
+      checksum: "09b97cd60669701593d982c36ab50df56197d86d3ecb8648b45d9864aa87cd0d"
     ),
     .target(
       name: "STAIdentifySPM",
