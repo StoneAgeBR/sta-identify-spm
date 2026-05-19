@@ -15,17 +15,17 @@ let package = Package(
     .binaryTarget(
       name: "STAIdentify",
       url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.29.1/STAIdentify.xcframework.zip",
-      checksum: "fa8b5f275010c3c171a50cf5e6a3f71bbad506c8cc3d6c2284876de69691b3e5"
+      checksum: "21973524c04538b4bbce83c8a2474af7a2e3da2ab366d96c58e4bb4ee77f8b72"
     ),
     .binaryTarget(
       name: "IDLiveFaceCamera",
       url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.29.1/Libraries/iad-2_5_0/Frameworks/IDLiveFaceCamera.xcframework.zip",
-      checksum: "2c9b64bf5832f78aac6e53479e42e3fb91a58ccad355cb2432dfdcbddca6c28e"
+      checksum: "f051143c2cf884eac4d3ae7840cd055404a4ffdaf1114e72b9c4ee673c73bbb4"
     ),
     .binaryTarget(
       name: "IDLiveFaceIAD",
       url: "https://identify-pods.stoneage.com.br/STAIdentify/STAIdentify_1.29.1/Libraries/iad-2_5_0/Frameworks/IDLiveFaceIAD.xcframework.zip",
-      checksum: "d90b3265538905a5ebf01b9826d28cfd345dd7e40771c531f01cc70d70c52fbd"
+      checksum: "e23f2fcbfcc1a9b6426c20fc6e0a5bb665d4db59d69a6f896fc0b9cbea10dfbb"
     ),
     .target(
       name: "STAIdentifySPM",
